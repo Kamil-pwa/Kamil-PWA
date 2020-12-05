@@ -1,0 +1,58 @@
+body
+{
+	background-color: #303030;
+	color: #ffffff;
+	font-family: 'Lato', sans-serif;
+	font-size: 20px;
+}
+.info
+{
+	width:100%;
+	text-align:center;
+	color:orange;
+}
+#Menu {
+	height: 90vh;
+	margin: 2em 2em 2em 2em;
+}
+
+nav {
+	display: flex;
+	width: 100%;
+	flex-wrap: nowrap;
+	justify-content: space-around;
+	max-height: 2em;
+}
+
+nav a {
+	border: black solid 1px;
+	padding: 0 1vh 0 1vh;
+	text-align: center;
+	color: orange;
+}
+
+nav .menu1 {
+	background-color: grey;
+	flex: 4;
+}
+
+nav .menu2 {
+	flex: 4;
+	background-color: grey;
+}
+
+nav .menu3 {
+	background-color: grey;
+	flex: 4;
+}
+
+nav .menu4 {
+	background-color: grey;
+	flex: 4;
+}
+footer {
+	color:orange;
+	background-color:grey;
+	padding:5px;
+	text-align:right;
+}

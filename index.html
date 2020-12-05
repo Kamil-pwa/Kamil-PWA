@@ -1,0 +1,55 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="UTF-8" />
+	
+	<title>Kamil Boś IVE - PWA</title>
+	<link rel="stylesheet" href="style.css" type="text/css"/>
+	<link rel="manifest" href="manifest.json">
+</head>
+<body>
+<div id="menu">
+	<nav>
+		<a href="#" class="menu1">MENU1</a>
+		<a href="#" class="menu2">MENU2</a>
+		<a href="#" class="menu3">MENU3</a>
+		<a href="#" class="menu4">MENU4</a>
+	</nav>
+</div>
+</br>
+<header><img src="ikony/ikona256x256.png"/></header>
+<div id="zegarek" style="FONT-WEIGHT:bold;SIZE:16PX;COLOR:orange; MARGIN-RIGHT: 4PX;"></div>
+<script type="text/javascript">
+	function zegar() {
+		var data = new Date();
+		var godzina = data.getHours();
+		var min = data.getMinutes();
+		var sek = data.getSeconds();
+		var terazjest = ""+godzina+
+				((min<10)?":0":":")+min+
+				((sek<10)?":0":":")+sek;
+		document.getElementById("zegarek").innerHTML = terazjest;
+		setTimeout("zegar()", 1000); }
+	zegar();
+</script>
+<div class="info">
+Część Informacyjna:
+</br>
+Imię i Nazwisko: Kamil Boś
+	</br>
+Klasa: IVE
+	</br>
+Numer w dzienniku: 02
+	</br>
+</div>
+</br>
+</br>
+</br>
+</br>
+</br>
+</br>
+	<footer>
+		<div class="stopka"><p><b>Kamil Boś IVE - Zadanie PWA</b></p></div>
+	</footer>
+</body>
+</html>
