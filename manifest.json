@@ -40,8 +40,8 @@
     }
   ],
   "start_url": "./index.html",
-  "background_color": "",
-  "theme_color": "",
+  "background_color": "#cccccc",
+  "theme_color": "#ffaaaa",
   "display": "standalone",
   "scope": "./"
 }
