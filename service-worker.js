@@ -8,13 +8,13 @@ if ('serviceWorker' in navigator) {
 var cacheName = 'PWA PIERWSZA APLIKACJA';
 var filesToCache = [
 
-    '.',
+    './',
 
     'index.html',
 
     'style/style.css',
 
-    'skrypty/util.js'
+
 
 ];
 self.addEventListener('install', function(e) {
